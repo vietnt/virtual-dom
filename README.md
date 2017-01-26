@@ -1,7 +1,7 @@
 
 # Overview
 
-Virtual-dom low-level dùng cho [name] (chuẩn bị opensource), 99.99% coder ko nên dùng lib này.
+Virtual-dom low-level dùng cho **fable-elm** (chuẩn bị opensource), 99.99% coder ko nên dùng lib này.
 
 Đặc điểm:
 
