@@ -1,4 +1,3 @@
-
 # Overview
 
 Virtual-dom low-level dùng cho **fable-elm** (chuẩn bị opensource), 99.99% coder ko nên dùng lib này.
@@ -13,7 +12,7 @@ Virtual-dom low-level dùng cho **fable-elm** (chuẩn bị opensource), 99.99% 
 
 # FAQ
 
-### không hỗ trợ tốt nghĩa là gì?
+### Không hỗ trợ tốt nghĩa là gì?
 Vẫn chạy được nhưng ko tối ưu
 
 ### Sao ko dùng lib có sẵn như React
