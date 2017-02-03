@@ -193,12 +193,9 @@ function diff(a, b, patches, index) {
                     patches.push(makePatch(UPDATE_ATTR, index, diffAs));
                 }
 
-                var go = makePatch(GO_DOWN, index);
-                patches.push(go);
+                patches.push(makePatch(GO_DOWN, index));
                 var n = patches.length;
-
                 diffChildren(a.children, b.children, patches, index);
-
                 if (n < patches.length) {
                     patches.push(makePatch(GO_UP, 1));
                 }
