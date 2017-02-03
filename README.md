@@ -1,6 +1,6 @@
-# Overview
+Overview
 
-Virtual-dom low-level dùng cho **fable-elm** (sắp opensource), 99.999% coder ko nên dùng lib này.
+Virtual-dom dùng cho **fable-elm** (sắp opensource), 99.999% coder ko nên dùng lib này.
 
 Specs:
 
