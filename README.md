@@ -1,14 +1,15 @@
 # Overview
 
-Virtual-dom low-level dùng cho **fable-elm** (chuẩn bị opensource), 99.99% coder ko nên dùng lib này.
+Virtual-dom low-level dùng cho **fable-elm** (sắp opensource), 99.999% coder ko nên dùng lib này.
 
-Đặc điểm:
+Specs:
 
 - speed: diff/patch 10,000 nodes ~1ms
-- lazy: block cùng arguments + render được reuse
-- patch: chỉ những gì thay đổi mới bị thay đổi (lol), riêng text bị replace thay vì patch
-- event-handler: chỉ được attach ở #root => có thể có lỗi về event trong 1 số case nào đó => tạo issue nếu có, cảm ơn.
-- table: không hỗ trợ tốt việc thay đổi vị trí child-nodes (table với 500-1000 rows, đổi cách sort ...) => nếu muốn thì gửi pull-request thôi.
+- lazy: block cùng arguments + renderer được reuse
+- patch: chỉ những gì thay đổi mới bị thay đổi (lol), riêng text bị replace
+- event-handler: chỉ được attach ở #root => có thể có lỗi về event trong 1 số case
+- input-value: được lấy từ input.value (lol), riêng checkbox là .checked
+- table: không hỗ trợ tốt việc thay đổi vị trí child-nodes (table với 100-1000 rows, re-order ...)
 
 # FAQ
 
@@ -16,10 +17,10 @@ Virtual-dom low-level dùng cho **fable-elm** (chuẩn bị opensource), 99.99% 
 Vẫn chạy được nhưng ko tối ưu
 
 ### Sao ko dùng lib có sẵn như React
-Bọn React code **** bỏ ****
+React code **** bỏ ****
 
 ### Mình ko nghĩ là React **** ...
-Bạn nghĩ gì mình **** quan tâm
+**** quan tâm
 
 ### Bạn code js như ***
-Mình ko biết code js
+****
